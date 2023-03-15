@@ -21,6 +21,11 @@
 // console.log(Number.isInteger(num3)) //checando se é um numero inteiro 
 // console.log(num3)
 
+//metodo usado para receber numeros grandes
 let num5 = 0.7
 let num6 = 0.1
+//recebendo valores flutuantes e transformando em inteiros
 
+num5 = (num5 * 100) + (num6 * 100); //0.8
+console.log(num5.toFixed(5)) //mostrando o valor final com casas decimais diretas
+console.log(Number.isInteger(num5)) //validando a função se é um valor inteiro
